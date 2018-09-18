@@ -1,21 +1,25 @@
 @charset "UTF-8";
 
 body {    
-    height: 100vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;    
 }
 
-header {
+/* font-family: 'Merriweather', serif; */
+
+header {    
+    height: 550px;
     margin: 0; padding: 0;
-    padding: 40px;
-    text-align: center; 
+    padding: 30px;
+    text-align: center;
     background-image: url("../imagens/fundo.png");
     background-repeat: no-repeat;
-    background-size: cover;     
+    background-size: cover; 
+    opacity: 0.8;        
 }
 
-header h1#logo {       
+
+header h1#logo {        
     margin: 0 auto;
     background-image: url("../imagens/logo.png");    
     background-repeat: no-repeat;       
@@ -24,20 +28,21 @@ header h1#logo {
     margin-bottom: 20px;  
 }
 
+header h1#logo span {
+    visibility: hidden;
+}
+
 header nav li {
     margin-bottom: 10px;
 }
 
 header nav a {
-    color: #fff;    
+    color: #fff; 
+    font-size: 1.2em;   
 }
 
 header nav a:hover {
     color: #fff;
-}
-
-header h1#logo span {
-    visibility: hidden;    
 }
 
 header img {
@@ -55,7 +60,7 @@ header div.informacoes p {
     color: #fff;
     font-size: 1.2em;
     opacity: 0.9;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
 }
 
 a.button {
@@ -68,4 +73,79 @@ a.button {
 
 a.button:hover {
     color: #fff;
+}
+
+div.fotos {
+    position: relative;
+    margin-top: -25px;
+}
+
+div.fotos h1 {
+    width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(to top, #ffffff, rgba(255, 255, 255, 0)), url("../imagens/vignettes.png");
+    background-repeat: no-repeat; 
+    background-size: cover;   
+}
+
+div.fotos h1 span {
+    visibility: hidden;
+}
+
+div.video {
+    position: relative;
+    margin-top: -50px;
+    padding: 15px;
+}
+
+div.video h2 {
+    color: #4c4c51;
+    font-size: 1.4em;    
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+div.video p {
+    color: #88939e;    
+    text-align: justify;
+    padding-bottom: 15px;
+    font-size: 0.9em;    
+}
+
+div.video video {
+    border-radius: 6px;
+}
+
+article.dados {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article.dados li {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #f94d59;
+    font-weight: 900;
+    font-size: 2.5em;
+    opacity: 0.8;
+}
+
+article.dados li.separador {
+    width: 20px;
+    background-color: #dbdbdb;
+    margin: 0 auto; 
+    padding: 1px; 
+    margin-bottom: 20px;   
+    border-radius: 1px;      
+}
+
+article.dados span {
+    display: block;
+    padding-bottom: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #88939e;
+    font-weight: 400;
+    font-size: 0.4em;
 }
