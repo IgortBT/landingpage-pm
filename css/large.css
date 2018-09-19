@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+header {
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    flex-flow: row;
+}
+
+header h1#logo {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+header nav {
+    width: 100vw;
+    display: flex;
+    flex-flow: row-reverse;    
+}
+
+header nav ul {
+    display: flex;     
+}
+
+header nav ul li {
+    padding-left: 50px;
+    padding-right: 50px;    
+    font-size: 1.375em;   
+}
+
+header img {
+    margin-right: 50px;
+}
+
+header div.informacoes {
+    width: 100vw;
+    position: absolute;
+    margin-top: 200px;
+}
+
+header div.informacoes h1 {
+    font-size: 3.000em;    
+}
+
+header div.informacoes p {
+    font-size: 1.375em;  
+    margin-bottom: 30px; 
+}
+
+header div.informacoes a {
+    font-size: 1.375em;
+}
+
