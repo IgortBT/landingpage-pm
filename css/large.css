@@ -8,6 +8,8 @@ header {
 }
 
 header h1#logo {
+    background-image: url("../imagens/logo.png");    
+    background-repeat: no-repeat;
     margin-top: 10px;
     margin-left: 60px;
 }
