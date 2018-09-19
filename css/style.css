@@ -21,7 +21,7 @@ header {
 
 header h1#logo {        
     margin: 0 auto;
-    background-image: url("../imagens/logo.png");    
+    background-image: url("/imagens/logo.png");    
     background-repeat: no-repeat;
     margin-bottom: 20px;  
     width: 38px;
