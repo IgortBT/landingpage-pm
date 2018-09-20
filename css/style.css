@@ -206,17 +206,17 @@ section.cidade form select#city {
     width: 80vw;    
     height: 10vw;
     border: 2px solid #dbdbdb;
-    border-radius: 15px 15px 0 0;
+    border-radius: 37px 37px 0 0;
     color: #88939e;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.0em;  
-    padding-left: 10px; 
+    padding-left: 20px;    
 }
 
 section.cidade form a#create {
     width: 80vw;    
     height: 10vw;
-    border-radius: 0 0 15px 15px;  
+    border-radius: 0 0 37px 37px;  
     background-color: #fd6e74 !important;    
     font-weight: 400;     
     border: none; 
@@ -256,6 +256,7 @@ section.airbnb table th {
 section.airbnb table td {
     width: 20%;
     font-size: 0.70em;
+    opacity: 0.9;
 }
 
 section.airbnb table a {

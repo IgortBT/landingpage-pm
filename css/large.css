@@ -148,4 +148,100 @@ section ul li span {
     font-size: 1.375em;
 }
 
+section.cidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+section.cidade h2 {    
+    font-size: 2.250em;
+}
+
+section.cidade h3 {
+    width: 70vw;
+    text-align-last: center;    
+    font-size: 1.375em;    
+}
+
+section.cidade form select#city {
+    width: 474px;
+    height: 60px;
+}
+
+section.cidade form a#create {
+    width: 474px;
+    height: 60px;         
+}
+
+section.airbnb {
+    margin-top: 70px;
+}
+
+section.airbnb form {
+    padding-left: 50px;
+    padding-right: 150px;
+    margin-top: 15px;
+}
+
+section.airbnb form select {
+    width: 339px;
+    height: 60px;    
+}
+
+section.airbnb table {
+    margin-bottom: 40px;
+}
+
+section.airbnb table th {
+    font-size: 1.375em;
+}
+
+section.airbnb table td {
+    font-size: 1.375em;
+}
+
+section.airbnb table a {
+    line-height: 0;
+    margin: 0; padding: 0;
+}
+
+section.airbnb table a:hover {
+    text-decoration: none;
+    color: rgb(68, 63, 63);
+}
+
+hr {
+    width: 90vw;
+    margin: 0 auto;    
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+footer div {
+    padding-left: 60px;
+}
+
+footer ul {
+    margin-left: 810px;
+}
+
+footer ul li {
+    padding-right: 30px;
+}
+
+footer ul li a {
+    font-size: 1.375em;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: rgb(68, 63, 63);
+}
 
