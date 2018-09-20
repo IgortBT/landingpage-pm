@@ -190,24 +190,17 @@ section.airbnb form select {
     height: 60px;    
 }
 
-section.airbnb table {
-    width: 90vw;
+section.airbnb table {    
     margin-bottom: 40px;
 }
 
-section.airbnb table th {
-    width: 30vw;
+section.airbnb table th {       
     font-size: 1.375em;
 }
 
 section.airbnb table td {
-    width: 30vw;
+    width: 30vw;    
     font-size: 1.375em;
-}
-
-section.airbnb table a {
-    line-height: 0;
-    margin: 0; padding: 0;
 }
 
 section.airbnb table a:hover {
