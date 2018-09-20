@@ -200,6 +200,7 @@ section.airbnb table th {
 }
 
 section.airbnb table td {
+    width: 30vw;
     font-size: 1.375em;
 }
 
