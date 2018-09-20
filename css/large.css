@@ -191,6 +191,7 @@ section.airbnb form select {
 }
 
 section.airbnb table {
+    width: 90vw;
     margin-bottom: 40px;
 }
 
